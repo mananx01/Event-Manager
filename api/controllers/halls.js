@@ -77,7 +77,6 @@ export const countByType = async (req, res, next) => {
       const bachelorpartyCount = await Halls.countDocuments({ type: "Bachelor Party" });
       /*
       const weddinganniversaryCount = await Halls.countDocuments({ type: "weddinganniversary" });*/
-      const annualfunctionCount = await Halls.countDocuments({ type: "Annaul Function" });
       
   
       res.status(200).json([
@@ -85,8 +84,6 @@ export const countByType = async (req, res, next) => {
         { type: "Birthday", count: birthdayCount },
         { type: "Engagement", count: engagementCount },
         { type: "Bachelor Party", count: bachelorpartyCount },
-        /*{ type: "weddinganniversarys", count: weddinganniversaryCount },*/
-        { type: "Annual Function", count: annualfunctionCount },
       ]);
     } catch (err) {
       next(err);

@@ -1,4 +1,4 @@
-import "./list.css";
+//import "./list.css";
 import Navbar from "../../components/navbar/Navbar.jsx";
 import Header from "../../components/header/Header";
 import { useLocation } from "react-router-dom";

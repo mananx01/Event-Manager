@@ -8,14 +8,14 @@ const Slider = () => {
     const photos = [
        
         {
-            src:"https://upload.wikimedia.org/wikipedia/commons/a/a1/Karimnagar_railway_station_1.jpg",
+            src:"https://plus.unsplash.com/premium_photo-1697730410005-1d916de26345?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
         {
-            src:"https://upload.wikimedia.org/wikipedia/commons/f/f7/A_typical_charminar_evening.jpg",
+            src:"https://plus.unsplash.com/premium_photo-1661919589683-f11880119fb7?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
         },
         {
-            src:"https://images.thrillophilia.com/image/upload/s--X9XV8LdF--/c_fill,g_auto,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/191/632/original/1581421342_warangal-warangal-fort-0.jpg.jpg",
+            src:"https://images.unsplash.com/photo-1625751950109-394d683833d0?q=80&w=2854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         
         

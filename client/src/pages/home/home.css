@@ -7,11 +7,13 @@
 
 .home{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                       rgba(0, 0, 0, 0.5)), url("homebg.jpeg");
+                       rgba(0, 0, 0, 0.5)), url("./homebg.jpeg");
 }
 .lists1{
 	display: flex;
 	justify-content: space-between;
+	color: #FFF;
+	padding: 2rem;
 }
 
 .float{

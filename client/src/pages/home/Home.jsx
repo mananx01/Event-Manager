@@ -40,9 +40,9 @@ const Home = () => {
             <h1 className="homeTitle">Featured Locations</h1>
             <br></br>
             <ul className="lists1">
-                <ul>Karimnagar</ul>
-                <ul>Hyderabad</ul>
-                <ul>Warangal</ul>
+                <ul>Delhi</ul>
+                <ul>Lucknow</ul>
+                <ul>Kanpur</ul>
             </ul>
             <Slider/>
             <br></br>

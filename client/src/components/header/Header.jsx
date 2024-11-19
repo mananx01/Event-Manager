@@ -62,75 +62,12 @@ const Header = ({type}) =>{
                 { type !== "list" &&
                 <>
                 <br/>
-                <h1 className= "headerTitle" > Good Deeds </h1>
+                <h1 className= "headerTitle" > PlanPerfect </h1>
                 <p className="headerDesc">
                 Need help planning your event ?We've got you covered!
                 wish your event planning and unique event design expertise,your event look amazing!
                 </p>
-                
-                <div className="headerSearch">
-                   
-                <div className="headerSearchItem">
-                        <FontAwesomeIcon icon={faLocation} className="headerIcon"/>
-                        <input 
-                        type="text" 
-                        required=" "
-                        placeholder="Select Your City" 
-                        className="headerSearchInput"
-                        onChange={(e) => setDestination(e.target.value)}
-                        
-                        /> 
-                    </div>
-                <div className="headerSearchItem">
-                        <FontAwesomeIcon icon={faCalendarDay} className="headerIcon"/>
-                        <input 
-                        type="text" 
-                        placeholder="Which type of event?" 
-                        className="headerSearchInput"
-                        onChange={(e) => setEvent(e.target.value)}
-                        /> 
-                    </div>
-                    
-                    <div className="headerSearchItem">
-                        <FontAwesomeIcon icon={faCalendar} className="headerIcon"/>
-                        <span onClick={()=> setOpenDate(!openDate)} className="headerSearchText"
-                        >Click here to select date </span>
-                        { openDate && (
-                        <DateRange
-                          editableDateInputs={true}
-                          onChange={(item)=> setDates([item.selection])}
-                          moveRangeOnFirstSelection={false}
-                          ranges={dates}
-                          className="date"
-                          minDate={new Date()}
-                        />
-                        )}
-                         
-                    </div>
-                    <div className="headerSearchItem">
-                        <FontAwesomeIcon icon={faPerson} className="headerIcon"/>
-                        <span onClick={()=> setOpenOptions(!openOptions)} className="headerSearchText">{options.capacity} people</span>
-                        {openOptions && <div className="options">
-                            <div className= "optionItem">
-                            <span className="optionText">Count</span>
-                            <div className="optionCounter">
-                                <button 
-                                disabled={options.capacity<=1}
-                                className="optionCounterButton" 
-                                onClick={()=> handleOption("capacity","d")}>-</button> 
-                                <span className="optionCounterNumber">{options.capacity}</span>
-                                <button className="optionCounterButton" 
-                                onClick={()=> handleOption("capacity","i")}>+</button>
-                            </div>
-
-                            </div>
-
-                        </div>}
-                    </div>
-                    <div className="headerSearchItem">
-                        <button className="headerBtn" onClick={handleSearch}>Search</button>
-                    </div>    
-                </div> </>
+                </>
                 }
             </div>
         </div>

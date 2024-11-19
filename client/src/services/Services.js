@@ -38,12 +38,6 @@ const Services = () => {
               <h2  style={{ color: 'black' }}>Bachelor Parties</h2>
               <p>Enjoy While you are young!</p>
             </div>
-
-            <div class="service">
-              <i class="fas fa-archway"></i>
-              <h2  style={{ color: 'black' }}>Annual Functions</h2>
-              <p>The day of Memorable Events.</p>
-            </div>
           </div>
       
     </div>

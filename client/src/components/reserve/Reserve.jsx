@@ -82,7 +82,7 @@ const Reserve=({setOpen,hallId,hname,hprice})=>{
       
       var props = {
         returnJsPDFDocObject: true,
-        fileName: "Invoice Gooddeeds",
+        fileName: "Invoice PlanPerfect",
         orientationLandscape: false,
         compress: true,
        
@@ -98,10 +98,10 @@ const Reserve=({setOpen,hallId,hname,hprice})=>{
             }
         },
         business: {
-            name: "GoodDeeds",
-            address: "Karimnagar, Telangana",
-            phone: "9048474484",
-            email: "contact_gd@support.com",
+            name: "PlanPerfect",
+            address: "Noida, Uttar Pradesh",
+            phone: "+91 12345 67890",
+            email: "support@gmail.com",
             
         },
         contact: {
@@ -198,7 +198,6 @@ const Reserve=({setOpen,hallId,hname,hprice})=>{
 
             <div className="rContainer">
                 <FontAwesomeIcon icon={faCircleXmark} className="rClose" onClick={()=>setOpen(false)}/>
-                <span>Select your slot:</span>
                 {data.map(item=>(
                     <div className="rItem">
                         <div className="rItemInfo">

@@ -5,7 +5,7 @@ import { useContext } from "react";
 import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/AuthContext"
-import "./mailList.css"
+//import "./mailList.css"
 
 const MailList = ({setOpen}) => {
 

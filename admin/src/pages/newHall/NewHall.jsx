@@ -104,14 +104,14 @@ const NewHall = () => {
                   </select>
                 </div>
 
-              <div className="selectSlots">
+              {/* <div className="selectSlots">
                 <label>Slots</label>
                 <select id="slots" multiple onChange={handleSelect}>
                   {loading?"loading":data && data.map(slot=>(
                     <option key={slot._id} value={slot._id}>{slot.title}</option>
                   ))}
                 </select>
-              </div>
+              </div> */}
               <button onClick={handleClick}>Send</button>
             </form>
           </div>
